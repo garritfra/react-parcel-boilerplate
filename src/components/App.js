@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/app.scss";
 
 export default class App extends Component {
   constructor(props) {
@@ -7,6 +8,10 @@ export default class App extends Component {
   }
 
   render() {
-    return <h1>Hello World!</h1>;
+    return (
+      <div className="app">
+        <h1>Hello World!</h1>
+      </div>
+    );
   }
 }
