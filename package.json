@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
-    "test": "jest"
+    "build": "npm test && parcel build public/index.html",
+    "test": "jest --coverage"
   },
   "author": "Garrit Franke",
   "license": "MIT",
