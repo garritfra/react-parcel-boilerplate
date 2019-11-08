@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import "../styles/app.scss";
 
 const Container = styled.div`
   text-align: center;
