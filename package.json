@@ -12,10 +12,11 @@
   "license": "MIT",
   "dependencies": {
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "node-sass": "^4.9.0",
-    "parcel": "^1.8.1"
+    "node-sass": "^4.13.0",
+    "parcel": "^1.12.4"
   }
 }
