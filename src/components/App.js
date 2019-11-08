@@ -1,17 +1,15 @@
 import React, { Component } from "react";
+import styled from "styled-components";
 import "../styles/app.scss";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.props = props;
-  }
+const Container = styled.div`
+  text-align: center;
+`;
 
-  render() {
-    return (
-      <div className="app">
-        <h1>Hello World!</h1>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <Container>
+      <h1>Hello World!</h1>
+    </Container>
+  );
 }
